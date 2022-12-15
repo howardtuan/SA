@@ -56,22 +56,35 @@
           </div>
         </div>
       </nav>
-
-      <div class="modal-dialog" role="document">
-        <div class="modal-content rounded-4 shadow card_block" id="modal-content">
-          <div class="modal-body p-5 ">
-            <div class="text-center">
-
-              <img width="150px" src="img/man.png" class="pic">
+      <div class="modal-content rounded-4 shadow" id="modal-content">
+        <div class="modal-header p-5 pb-4 border-bottom-0">
+          <!-- <h1 class="modal-title fs-5" >Modal title</h1> -->
+          <h1 class="fw-bold mb-0 fs-2">登入</h1>
+          <a href="index.html">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </a>
+        </div>
+  
+        <div class="modal-body p-5 pt-0">
+          <form class="">
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control rounded-3" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">手機號碼</label>
             </div>
-            <h2 class="fw-bold mb-0 text-center">土豪</h2>
-            <p class="text-center">碳權點數：10000</p>
-            <div class="text-center">
-
-              <img width="200px" height="85px" src="img/NYKD54.png" >
+            <div class="form-floating mb-3">
+              <input type="password" class="form-control rounded-3" id="floatingPassword" placeholder="Password">
+              <label for="floatingPassword">密碼</label>
             </div>
-            <p class="text-center">碳權載具：/NYKD54</p>
-          </div>
+            <div class="btn_center">
+              <button type="submit" class="btn btn-outline-success">登入</button>
+              <a href="signup.html">
+                <button type="button" class="btn btn-outline-secondary">註冊</button>
+              </a>
+            </div>
+            <p></p>
+            <small class="text-muted">歡迎使用炭治郎系統，若您還沒有帳號，請點擊註冊按鈕加入會員。</small>
+            
+          </form>
         </div>
       </div>
       <div class="text-center">
