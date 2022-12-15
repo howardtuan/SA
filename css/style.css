@@ -1,0 +1,15 @@
+/*rgba(131,196,140,0.5299999713897705)*/
+#modal-content{
+    width: 80%;
+    margin: auto;
+    margin-top: 15%;
+    background-color: rgba(131,196,140,0.5299999713897705);
+}
+
+.body{
+    background-color: #F4F0EC;
+}
+.pic{
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
