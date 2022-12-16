@@ -21,22 +21,18 @@
     margin-top:10%;
     margin-left:25%;
 }
-.rk_title{
+.ex_title{
     margin-top: 5%;
 }
-.rk_block{
-    margin: auto;
-    width: 90%;
+.ex_block{
     height: 90px;
-    border:2px #ccc solid;
+    border:2px rgba(87, 131, 93, 0.53) solid;
     border-radius:10px;
-    background-color:#eee;
+    background-color:rgba(131,196,140,0.5299999713897705);
     margin-bottom: 3%;
 }
-.rk_block_top{
-    margin: auto;
-    width: 90%;
-    height: 90px;
+.ex_block_top{
+    height: 60px;
     border:2px rgb(211, 161, 0) solid;
     border-radius:10px;
     background-color:rgb(255, 200, 17);
