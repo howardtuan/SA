@@ -21,6 +21,27 @@
     margin-top:10%;
     margin-left:25%;
 }
+.rk_title{
+    margin-top: 5%;
+}
+.rk_block{
+    margin: auto;
+    width: 90%;
+    height: 90px;
+    border:2px #ccc solid;
+    border-radius:10px;
+    background-color:#eee;
+    margin-bottom: 3%;
+}
+.rk_block_top{
+    margin: auto;
+    width: 90%;
+    height: 90px;
+    border:2px rgb(211, 161, 0) solid;
+    border-radius:10px;
+    background-color:rgb(255, 200, 17);
+    margin-bottom: 3%;
+}
 @media screen and (max-width:500px) { 
     .nextlevel_center{
         margin-top:45%;
